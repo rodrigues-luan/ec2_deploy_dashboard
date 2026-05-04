@@ -28,7 +28,7 @@ resource "aws_instance" "web" {
               sudo systemctl enable docker
 
               # Clonar o repositório do GitHub
-              git clone https://github.com/lvgalvao/terraform-streamlit.git /app
+              git clone https://github.com/rodrigues-luan/ec2_deploy_dashboard.git /app
 
               # Construir e executar o contêiner Docker
               cd /app
