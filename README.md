@@ -106,3 +106,29 @@ terraform destroy
 ```
 terraform init -migrate-state
 ```
+
+### 13. Caso dê erro no github
+```
+git push --set-upstream origin main
+```
+
+### 14. Docker - Criando imagem o "." quer dizer q tudo q ta na pasta vai virar uma imagem 
+```
+docker build -t app-streamlit .
+```
+
+### 15. Docker - Criando imagem o "." quer dizer q tudo q ta na pasta vai virar uma imagem 
+```
+docker run -p 8501:8501 app-streamlit
+```
+
+### 16. Os serviços estão separados em vários arquivos mas podem ser adicionados apenas no arquivo main
+```
+ec2 | vpc | security_group | 
+```
+
+### 17. Pontos interssantes do arquivo ec2.tf
+```
+resource: cria coisas
+data: consome coisas
+```
